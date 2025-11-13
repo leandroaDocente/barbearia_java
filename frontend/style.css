@@ -1,0 +1,57 @@
+/* Importa a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    /* Cor de fundo e fonte principal */
+    font-family: 'Roboto', sans-serif; /* [cite: 38] */
+    background-color: #FFFFFF; /* [cite: 43] */
+    color: #333333; /* [cite: 40] */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h1 {
+    color: #DAA520; /* Cor de destaque [cite: 41] */
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif; /* [cite: 38] */
+}
+button {
+    background-color: #DAA520; /* Cor de destaque [cite: 41] */
+    color: #FFFFFF; /* [cite: 43] */
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover {
+    opacity: 0.9;
+}
+#mensagem {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
