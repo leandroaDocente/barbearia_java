@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/agendamentos")
-@CrossOrigin(origins = "*") // Permite que o frontend (de outra porta) chame esta API
 public class AgendamentoController {
 
     @Autowired
